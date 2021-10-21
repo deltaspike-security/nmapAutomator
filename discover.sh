@@ -1,5 +1,10 @@
 #!/bin/bash
 
+#The script will automates following tasks:
+#1. Host identification
+#2. Port scan & Service enumeration
+#3. run nmap vulnerability scans against each service
+
 if [ -z "$1" ]
 then
         echo "Usage: ./discover.sh <IP>"
